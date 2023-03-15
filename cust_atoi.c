@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+
+
+
 long long int atoi(char *s)
 {
 long long int a=0;
