@@ -5,8 +5,8 @@
 #include<sys/wait.h>
 int main()
 {
-
-
+	/**FORK takes a process and spawns a child process from it
+	 **/
 	printf(" I am %d:\n",getpid());
 	pid_t pid=fork();
 	printf("fork returned:%d\n",(int) pid);
